@@ -1,0 +1,72 @@
+body{
+    background-color: skyblue;
+    direction: rtl;
+}
+
+h1,h3{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h2{
+    font-size: xx-large;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+   
+}
+
+label{
+    color: blue;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+div{
+    text-align: center;
+}
+
+#copyrights{
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+display:flex;
+justify-content:space-around;
+margin-right: 100px;
+margin-left: 150px;
+
+}
+
+
+
+a{
+    color: rgb(84, 84, 243);
+}
+
+a:hover{
+    color:yellow;
+}
+
+
+ .animalPhoto{
+    margin: 0 auto;
+    width: 1px;
+    height: 1px;
+}
+
+.contactTable{
+    width: fit-content;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: 0px;
+
+}
+
+.pics{
+    height: 100px;
+    width: 100px;
+}
