@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <h1>חנות החיות המגניבה בארץ!</h1>
@@ -21,11 +22,13 @@
     <table class="contactTable">
     <tr>
        <td><label>שם פרטי:</label></td>
-        <td><input type="text"></td>
+        <td><input type="text" id="firstNameBox"></td>
+        <span id="firstNameError"></span>
     </tr>
     <tr>
         <td><label>שם משפחה:</label></td>
-        <td><input type="text"></td>
+        <td><input type="text" id="lastNameBox"></td>
+        <span id="lastNameError"></span>
     </tr>
     <tr>
         <td><label>מין:</label></td>
@@ -48,11 +51,12 @@
     </tr>
     <tr>
        <td><label>הודעה:</label></td>
-        <td><textarea cols="40" rows="4"> </textarea></td>
+        <td><textarea cols="40" rows="4" id="textBox"></textarea></td>
+        <span id="textError"></span>
     </tr>
     <tr>
         <td></td>
-    <td><button>שלח</button>
+    <td><button onclick="validation()">שלח</button>
     <button type="reset">נקה</button></td>
     </tr>
     <br>
